@@ -1,5 +1,5 @@
 " CaldwellDN .vimrc
-" Last updated 5/6/2025
+" Last updated 11/17/2025
 
 " Disable vi compatibility (Issues)
 set nocompatible
@@ -9,6 +9,12 @@ syntax on
 
 " Turn numbers for each line on
 set number
+
+" Set utf8 as encoding
+set encoding=utf8
+
+" Turn on ruler/info at the bottom
+set ruler
 
 " Enable filetype detection
 filetype on
@@ -31,4 +37,10 @@ set nobackup
 " No wrapping
 set nowrap
 
+" Enable monokai colors
+syntax enable
+colorscheme monokai
 
+" Visualize tabs and newlines
+set listchars=tab:▸\ ,eol:¬
+set list
